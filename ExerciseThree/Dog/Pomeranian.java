@@ -1,4 +1,4 @@
-interface Pomeranian {
+interface Maltese {
 
     String personality = "Sluggish";
 
