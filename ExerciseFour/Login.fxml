@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <Label layoutX="180.0" layoutY="113.0" text="Hello, Lover! &lt;3">
+         <font>
+            <Font name="Rockwell" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="94.0" layoutY="187.0" text="username">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="225.0" text="password">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mytextfield" layoutX="208.0" layoutY="188.0" prefHeight="26.0" prefWidth="228.0" />
+      <PasswordField fx:id="mypasswordfield" layoutX="208.0" layoutY="226.0" prefHeight="26.0" prefWidth="228.0" />
+      <Button fx:id="mybutton" layoutX="258.0" layoutY="272.0" mnemonicParsing="false" onAction="#login" text="log in">
+         <font>
+            <Font name="Rockwell" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
